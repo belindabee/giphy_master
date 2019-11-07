@@ -10,7 +10,7 @@ module.export = {  //we can't use the new ESX import and export in the package c
             {
                 test: /.js?$/,
                 loader: 'bable-loader', // we have a  load of cable. it runs on all of our JS files and it doesn't run on anything in node modules because we don't want to compile any third 
-                exclude: /node_modules/, // party modules just the code we write and then we pass in table all the presed and plugins we requires 
+                exclude: /node_modules/, // party modules just the code we write and then we pass in table all the presed and plugins we requires  
                 query: {
                     presents: ['es2015', 'react'],
                     plugins: ['transform-object-rest-spread']
